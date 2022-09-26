@@ -1,0 +1,2 @@
+# Cupp
+A diferencia de crunch para poder crear un diccionario debes colocar palabras que de alguna manera combinadas entre si de el password, Cupp lo que hace es hacerte preguntas sobre tu victima y con las respuestas crear un diccionario.

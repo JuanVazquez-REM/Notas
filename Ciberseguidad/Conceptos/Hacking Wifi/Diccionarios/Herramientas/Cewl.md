@@ -1,0 +1,2 @@
+# Cewl 
+Es una aplicación de Ruby que rastrea una determinada URL a una profundidad especificada, siguiendo opcionalmente enlaces externos, y devuelve una lista de palabras que pueden ser usadas para crackers de contraseñas.

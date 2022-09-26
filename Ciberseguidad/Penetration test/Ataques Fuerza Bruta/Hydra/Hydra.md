@@ -16,5 +16,5 @@ Realiza un ataque de fuerza bruta al usuario marlinspike de tipo login para obte
 192.168.1.68 *IP privada de la maquina victima*
 ssh *Protoloco que se utiliza para el login*
 
-![Infografia Hydra](/Img/infografia-hydra.jpeg)
+![Infografia Hydra](infografia-hydra.jpeg)
 

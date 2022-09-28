@@ -1,0 +1,6 @@
+# Mouse Jacking
+Muchas veces elegimos **teclados** **o ratones inalámbricos**, porque los cables se nos hacen molestos y para muchos es mejor solo conectar un pequeño aparato por medio **USB**, el cual nos permite trabajar mejor y fluido sin el estorboso cable, **pero esta practicidad nos puede estar costando nuestra privacidad**.
+
+**¿Pero cómo es esto posible?** Pues la firma de seguridad informática **Bastille** dio a conocer unas **advertencias** a distintas compañías de que sus **teclados y ratones** podrían tener **vulnerabilidades**, como consecuencia de esto, los dispositivos que estuviesen haciendo uso de ellos podrían ser **fácilmente hackeados**.
+
+Haciendo uso de un sistema llamado **mousejacking** que es un tipo de **exploit**, logran que el atacante aproveche la **conexión inalámbrica** en periféricos como **Logitech**, **Dell**, **Microsoft**, **HP**, **Amazon**, **Gigabyte** o **Lenovo** para poder introducir movimientos y pulsaciones del **ratón o teclado** como si fuera el Dispositivo conectado.

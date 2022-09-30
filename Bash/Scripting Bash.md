@@ -9,7 +9,7 @@ sort data.txt uniq -u *muestra la unica linea unica* bandit 8
 
 strings data.txt *muestra los caracteres imprimibles*
 awk 'NR= =4'  *nos permite filtrar la linea de un output*k
-awk 'NF{print $NF}' * nos permite sacar el ultimo segundo parametro*
+awk 'NF{print \$NF}' *nos permite sacar el ultimo segundo parametro*
 base64 *codifica mensajes*
 base64 -d *decodifica*
 tr *itera el output al igual que* sed

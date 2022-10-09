@@ -95,11 +95,3 @@ Bash nos permite ejecutar una sentencia en una sola linea, ejemplo:
 	contador=1; strings data.txt | grep "^=" | while read line; do echo "Linea $contador: $line"; let contador+=1; done | awk 'NR==4' | awk '$NF{print $NF}'
 
 
-
-
-alex el capo podcast the wild project mirar ultimos 30 minutos
-
-Reddit: aunixporn 
-
-
-

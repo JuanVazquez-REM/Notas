@@ -10,7 +10,7 @@ Monitoriamos la red en el canal 1
 **Datos del AP**
 D0:B6:6F:5A:4C:BF  INFINITUM33B5      
 **Datos del cliente asociado al AP**
-74:23:44:A9:C7:67 
+68:D7:9A:56:2B:72
 
 	airodump-ng -c 1 -w CapturasDeAuth --essid INFINITUM33B5 wlan1mon 
 Capturamos los paquetes que circulan en la AP

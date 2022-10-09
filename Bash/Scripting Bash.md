@@ -54,7 +54,23 @@ tail -n 1 *devuelve la ultima linea*
 awk 'NF{print $NF}' *obtiene el ultimo argumento del output*
 tr -d "$" *se elimina el caracter de todo el output*
 awk "{print $2}" *saca el segundo argumento del output*
-xprop WM_CLASS *visualiza la class_g *
+xprop WM_CLASS *visualiza la class_g*
+grep "Entradas" -A 100 *hace el filtro y hace un output de 100 lineas hacea bajo* -B *lineas hacia arriba*
+head -n -2 *quita las 2 utlimas lineas*
+grep  -n "user" *retorna la linea donde se encontro el filtro*
+awk '{print $1}' FS=":" *filtrame el primer agumento donde el delimitador sea :*
+sed "${line_null}s/\$/0/" -i result.tmp *indico que quiero hacer una sustitucion en una linea espesifica, en un archivo existe*
+
+awk '{print $1 "\__" $2 "  " $3 }'  *podemos acomodar los argumentos*
+```bash
+bc1qcegma29qrpemqp7caj6x5y60ktwzq77hzj6mmw_0.00087128 BTC
+bc1qd9ujtjc0ffck2tkm6auqucse3gatf54vunhmlt_0.00281964 BTC
+bc1q0dwws036msu9wpu88suyq7psxau0jr2z9hwlwl_0.01685264 BTC
+```
+awk 'NR%2' *me da el output cada 2 lineas*
+awk 'NR%2{printf "%s ",$0;next;}1'  *sobre este output muestrame un string que es la linea siguiente, 1 para que sea una linea por debajo*
+
+
 
 Abrir una *bash* desde un more
 
@@ -93,5 +109,3 @@ script bash
 Bash nos permite ejecutar una sentencia en una sola linea, ejemplo:
 
 	contador=1; strings data.txt | grep "^=" | while read line; do echo "Linea $contador: $line"; let contador+=1; done | awk 'NR==4' | awk '$NF{print $NF}'
-
-

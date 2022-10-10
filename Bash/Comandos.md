@@ -109,3 +109,25 @@ script bash
 Bash nos permite ejecutar una sentencia en una sola linea, ejemplo:
 
 	contador=1; strings data.txt | grep "^=" | while read line; do echo "Linea $contador: $line"; let contador+=1; done | awk 'NR==4' | awk '$NF{print $NF}'
+
+**Primero necesitamos desactivar nuestra intefaz de red** para ello ejecutamos:
+`sudo ifconfig eth0 down`
+
+
+Hecho esto ahora si podemos proceder a utilizar la aplicación. **Para el caso de crear una dirección completamente MAC completamente aleatoria, basta con ejecutar:**
+`macchanger -r eth0`
+
+Para **aleatorizar solo los bytes específicos del dispositivo de la dirección MAC actua**l (es decir, si la dirección MAC estuviera marcada, aún se registraría como del mismo proveedor), ejecutan el comando:
+`macchanger -e eth0`
+
+Para **cambiar la dirección MAC a un valor específico basta con teclear**:
+`macchanger --mac = XX: XX: XX: XX: XX eth0`
+
+Dónde XX:XX:XX:XX:XX:XX está el MAC al que deseas cambiar
+
+Finalmente, **para devolver la dirección MAC a su valor de hardware original y permanente**:
+`macchanger -p eth0`
+
+Y **volvemos a habilitar nuestra interfaz de red con:**
+`ifconfig eth0 up`
+

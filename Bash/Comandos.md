@@ -1,4 +1,4 @@
-# Comandos
+ # Comandos
 
 grep *filtra*
 xargs *ejecuta algo con el output*
@@ -51,7 +51,7 @@ less -S *muestra en formato de padding, tipo __more__*
 grep "name" *para ubicarnos cerca de la linea*
 grep "name" -A 2 *devuelve las 2 lineas por debajo de la buscada*
 tail -n 1 *devuelve la ultima linea*
-awk 'NF{print $NF}' *obtiene el ultimo argumento del output*
+awk 'NF{print \$NF}' *obtiene el ultimo argumento del output*
 tr -d "$" *se elimina el caracter de todo el output*
 awk "{print $2}" *saca el segundo argumento del output*
 xprop WM_CLASS *visualiza la class_g*
@@ -61,7 +61,7 @@ grep  -n "user" *retorna la linea donde se encontro el filtro*
 awk '{print $1}' FS=":" *filtrame el primer agumento donde el delimitador sea :*
 sed "${line_null}s/\$/0/" -i result.tmp *indico que quiero hacer una sustitucion en una linea espesifica, en un archivo existe*
 
-awk '{print $1 "\__" $2 "  " $3 }'  *podemos acomodar los argumentos*
+awk '{print $1 "\_\_" $2 "  " $3 }'  *podemos acomodar los argumentos*
 ```bash
 bc1qcegma29qrpemqp7caj6x5y60ktwzq77hzj6mmw_0.00087128 BTC
 bc1qd9ujtjc0ffck2tkm6auqucse3gatf54vunhmlt_0.00281964 BTC
@@ -69,6 +69,10 @@ bc1q0dwws036msu9wpu88suyq7psxau0jr2z9hwlwl_0.01685264 BTC
 ```
 awk 'NR%2' *me da el output cada 2 lineas*
 awk 'NR%2{printf "%s ",$0;next;}1'  *sobre este output muestrame un string que es la linea siguiente, 1 para que sea una linea por debajo*
+du -hc file *ver peso del file*
+upx file *comprime el archivo, lo hacer menos pesado*
+ps -eo command *observas todos los comandos que se estan ejecutando actualmente*
+
 
 
 
@@ -110,24 +114,5 @@ Bash nos permite ejecutar una sentencia en una sola linea, ejemplo:
 
 	contador=1; strings data.txt | grep "^=" | while read line; do echo "Linea $contador: $line"; let contador+=1; done | awk 'NR==4' | awk '$NF{print $NF}'
 
-**Primero necesitamos desactivar nuestra intefaz de red** para ello ejecutamos:
-`sudo ifconfig eth0 down`
 
-
-Hecho esto ahora si podemos proceder a utilizar la aplicación. **Para el caso de crear una dirección completamente MAC completamente aleatoria, basta con ejecutar:**
-`macchanger -r eth0`
-
-Para **aleatorizar solo los bytes específicos del dispositivo de la dirección MAC actua**l (es decir, si la dirección MAC estuviera marcada, aún se registraría como del mismo proveedor), ejecutan el comando:
-`macchanger -e eth0`
-
-Para **cambiar la dirección MAC a un valor específico basta con teclear**:
-`macchanger --mac = XX: XX: XX: XX: XX eth0`
-
-Dónde XX:XX:XX:XX:XX:XX está el MAC al que deseas cambiar
-
-Finalmente, **para devolver la dirección MAC a su valor de hardware original y permanente**:
-`macchanger -p eth0`
-
-Y **volvemos a habilitar nuestra interfaz de red con:**
-`ifconfig eth0 up`
 

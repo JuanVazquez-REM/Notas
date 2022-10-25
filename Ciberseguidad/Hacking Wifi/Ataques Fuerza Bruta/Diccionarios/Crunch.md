@@ -1,5 +1,5 @@
 # Creaccion de diccionario con crunch
-Para la creacion de un diccionario se utilizara la herramienta de [[Crunch]] donde para crear un diccionario se hara lo siguiente.
+Para la creacion de un diccionario se utilizara la herramienta de [[[Conceptos/Hacking Wifi/Diccionarios/Herramientas/Crunch]]donde para crear un diccionario se hara lo siguiente.
 
 En la siguiente ubicacion se encuentran los diferentes conjuntos de caracteres con los que podemos formular nuestros diccionarios.
 

@@ -1,5 +1,5 @@
 # Creaccion de diccionario con Cupp
-[[Cupp]] crea un diccionario apartir de ciertas preguntas que te realiza cupp, responder la preguntas con los datos de la victima.
+[[[Conceptos/Hacking Wifi/Diccionarios/Herramientas/Cupp]]crea un diccionario apartir de ciertas preguntas que te realiza cupp, responder la preguntas con los datos de la victima.
 
 Para intalar esta herramienta debemos de clonarla de git 
 

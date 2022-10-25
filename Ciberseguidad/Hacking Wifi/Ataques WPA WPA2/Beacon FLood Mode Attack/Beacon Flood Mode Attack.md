@@ -1,5 +1,5 @@
-#  Beacon Flood Mode Attack
-Consiste en generar muchos acces point en un canal espesifico para que el canal se sature y los AC expulsen a sus dispositivos conectados.
+Este ataque consisten en saturar un canal con tramas becon con informacion falsa, generando multiples AP, esto provoca que se dañe por decirlo asi el espectro de onda del AP victima haciendo que los clientes se deconecten
+
 
 	mdk3 wlan1mon b -f nombre.txt -a -s 1800 -c 6
 Lo que hace es generar con los nombres que ingrese en el txt generar AC en el canal 6

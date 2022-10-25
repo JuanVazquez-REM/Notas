@@ -11,3 +11,6 @@ Si desea ver el contenido del diccionario.
 
 	more diccionario.txt
 
+#### ## [[Ciberseguidad/Hacking Wifi/Ataques Fuerza Bruta/Diccionarios/Cupp]]
+**dsds**
+[]

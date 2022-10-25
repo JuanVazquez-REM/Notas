@@ -1,5 +1,4 @@
-# Dissasociation Amok Mode Attack Con MDK3
-Este ataque lo que hace es expulsar a los usuarios que se encuentran en la red.
+Este ataque lo que hace es expulsar a los usuarios que se encuentran en la red, esto no deja de ser un *deAuth*.
 
 Para esto vamos a generar una lista negra de los usuarios que deseamos expulsar, guardamos las direcciones macs de los dispositivos en un txt.
 

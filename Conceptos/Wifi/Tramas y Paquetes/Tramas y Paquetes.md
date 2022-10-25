@@ -1,4 +1,3 @@
-# Tramas de Gestion
 Las tramas 802.11 de gestión son las que permiten mantener comunicaciones a las estaciones inalámbricas y tenemos distintos tipos.
 
 Existen diferentes tramas de gestion en este caso solo veremos las siguientes:
@@ -23,3 +22,18 @@ Por esta razon nuestros dispositivos se conectan a una red de forma automatica c
 
 ### Probe Response
 Esta trama como se vio anteriormente es la respuesta del router al resivir una trama probe resquest.
+
+### Association Request
+Esto sucede cuando el dispositivo manda un *Probe Request* y el AP le contesta con un *Probe Response*, a continuacion el dispositivo manda un paquete *association request*, en espera de una respuesta.
+
+### Association Response
+Este paquete se da a la respuesta del *association request*.
+
+### Authentication 
+Este paquete se emite cuando se realiza una asosiacion
+
+### DeAuthentication
+Este paquete se envia cuando se desea desconectar del AP
+
+### Dissasociation Frame
+Esto pasa cuando se emite cuando ocurre una DeAuthentication. 

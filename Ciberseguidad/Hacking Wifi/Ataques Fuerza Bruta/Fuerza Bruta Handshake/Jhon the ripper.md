@@ -1,5 +1,3 @@
-# Fuerza bruta con Jhon The Ripper
-
 Una vez que se captura el [[HandShake]] podemos desifrar con la herramienta [[Conceptos/Hacking Wifi/Herramientas/Jhon The Ripper | Jhon The Ripper]] lo que se hara es verificar el hash obtenido por el handshake con algun diccionario de contraseñas.
 
 Primero debemos de pasar la captura obtenida es decir *CapturaDeAuth-01.cap* a un archivo *hashcat (HCCAP)* con aircrack-ng 

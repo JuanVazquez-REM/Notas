@@ -1,4 +1,3 @@
-# Rainbow tables
 Las [[Rainbow table]] son diccionarios decontraseñas con la diferencia que estan contienen la contraseña y el valor hash que representa, con el fin de que el proceso de el ataque de fuerza bruta sea mucho mas eficaz.
 
 Con ayuda de la herramienta de airolib-ng de la familia de aircrack podemos construir una rainbow table.
@@ -8,7 +7,7 @@ Creamos la tabla proporcionando el nombre que tendra esta e importando el diccio
 
 	echo "ESSID_victima" > essid.lst
 Creamos un archivo con el bssid del AC que deseamos atacar.
--.essid.lst [[Rainbow Tables#Archivo lst]]
+-.essid.lst [[Airolib-ng#Archivo lst]]
 
 	airolib-ng diccPre --import essid essid.lst
 Importamos el essid al igual que las passwords

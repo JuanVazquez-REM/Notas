@@ -1,6 +1,6 @@
- # Internet
 
 ## Protocolos
+
 ### TCP / IP
 Es un conjunto de reglas estandarizadas que permiten a los equipos comunicarse en una red como Internet.
 
@@ -18,6 +18,7 @@ Se utiliza para **transmitir datagramas de forma rápida en redes IP** y funcion
 
 
 ## Tipos de paquetes
+
 ### SYN
 Este paquete se envia cuando el cliente desea establecer una conexion, manda un paquete SYN (snychronize) con un numero de secuencia inidividual o aleatorio. Este numero garantiza la transmicion completamente en orden, sin *duplicados*, por si todo esta correcto consecuencia crea una sesion para su comunicacion.
 
@@ -37,6 +38,3 @@ Nota: Existe conexion por parte del host NAT.
 Este modo simula que la tarjeta de red virutal esta conectada a la red, por lo tanto la maquina virtual se hace pasar por una maquina fisica, por lo tanto puede interactuar con las demas maquinas.
 
 
-
-
-javier matuc

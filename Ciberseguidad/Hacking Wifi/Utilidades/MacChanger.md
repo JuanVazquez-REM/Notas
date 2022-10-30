@@ -1,4 +1,3 @@
-# Macchanger
 Machanger lo que nos permite es alterar nuestra direccion [[Direccion MAC | MAC]], generando una aleatoriamente,con la opcion de volver a tu mac original.
 
 Ahora podemos saber cual es la direccion mac de nuestra tarjeta de red, ya sea la permatente(De facrica) o la actual que puede ser una falsificada.

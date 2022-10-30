@@ -7,7 +7,7 @@ Existen diferentes tramas de gestion en este caso solo veremos las siguientes:
 3. Probe Response
 
 ### Beacon Frames
-Esta trama lo que hace es difundir la presencia del access point y la configuracion basica del access poit a las estaciones cliente en su radio de cobertura.
+Esta trama lo que hace es difundir la presencia del access point y la configuracion basica del access point a las estaciones cliente en su radio de cobertura.
 
 Las estaciones pueden obtener litas de access point disponibles buscando tramas beacon continuamente.
 	
@@ -37,3 +37,4 @@ Este paquete se envia cuando se desea desconectar del AP
 
 ### Dissasociation Frame
 Esto pasa cuando se emite cuando ocurre una DeAuthentication. 
+

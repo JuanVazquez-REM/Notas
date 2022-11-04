@@ -63,6 +63,11 @@ sed "${line_null}s/\$/0/" -i result.tmp *indico que quiero hacer una sustitucion
 grep -r -i *-r Busca en la ubicacion actual de forma recursiva, -i quita el case insensitive*
 netstat -ln *Lista los puertos abiertos en nuestro equipo*
 which nano *Saber done se ubica executable nano*
+grep -oP *Filtro por expresiones regulares*
+timeout 1 bash -c "echo ' ' >/dev/tcp/10.10.10.11/80" *El timeout indica que cancelara el proceso en 1 segundo*
+
+
+
 
 awk '{print $1 "\_\_" $2 "  " $3 }'  *podemos acomodar los argumentos*
 ```bash

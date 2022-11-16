@@ -1,4 +1,3 @@
-# Introduccion al analisis de puertos
 [[Ciberseguidad/Pentesting/Escaneo/Nmap]] es una de las muchas herramientas para el escaneo de puerto, pero es de las mas eficientes, la orden mas sencilla es ` nmap <objetivo> ` analiza mas de 1660 puertos [[Protocolos de Internet#TCP IP]], y aqui esta lo interezante muchos analizadores clasificaron que un puerto solo puede tener dos estados **abierto o cerrado**.
 
 Pero nmap es mucho mas descriptivo, los puertos se dividen en seis estados:

@@ -1,4 +1,3 @@
-# DesAuth Dirigido 
 Consiste en interceptar una comunicacion del cliente al AP, insertando en la data paquetes de desautenticacion, con el objetivo de denegar el servicio al cliente.
 
 	airmon-ng start wlan1

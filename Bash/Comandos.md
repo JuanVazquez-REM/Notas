@@ -65,9 +65,10 @@ netstat -ln *Lista los puertos abiertos en nuestro equipo*
 which nano *Saber done se ubica executable nano*
 grep -oP *Filtro por expresiones regulares*
 timeout 1 bash -c "echo ' ' >/dev/tcp/10.10.10.11/80" *El timeout indica que cancelara el proceso en 1 segundo*
-
-
-
+updatedb *Es una forma de sincronizar todos los archivos a nivel de sistema*
+grep -oP '".\*?"' *Filtra la informacion que este dentro de " "* .\*? *esto significa data*
+xxs -ps -r *Convierte hexadecimal o string*
+find
 
 awk '{print $1 "\_\_" $2 "  " $3 }'  *podemos acomodar los argumentos*
 ```bash

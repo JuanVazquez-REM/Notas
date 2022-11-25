@@ -1,4 +1,3 @@
-# Creaccion de diccionario con cewl
 Este creador de directorios es particular, ya que [[Conceptos/Hacking Wifi/Diccionarios/Herramientas/Cewl]] esta hecho para crear diccionarios extrayendo informacion de una pagina web.
 
 Por ejemplo le proporcionamos la pagina de facebook.com y lo que va hacer es buscar todas la palabras de facebook.com y despues va a formar un diccionaro con todas la palabras que pudo recolectar, a se le llama *ataque spider*.

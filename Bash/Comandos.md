@@ -52,14 +52,14 @@ grep "name" *para ubicarnos cerca de la linea*
 grep "name" -A 2 *devuelve las 2 lineas por debajo de la buscada*
 tail -n 1 *devuelve la ultima linea*
 awk 'NF{print \$NF}' *obtiene el ultimo argumento del output*
-tr -d "$" *se elimina el caracter de todo el output*
-awk "{print $2}" *saca el segundo argumento del output*
+tr -d "\$" *se elimina el caracter de todo el output*
+awk "{print \$2}" *saca el segundo argumento del output*
 xprop WM_CLASS *visualiza la class_g*
 grep "Entradas" -A 100 *hace el filtro y hace un output de 100 lineas hacea bajo* -B *lineas hacia arriba*
 head -n -2 *quita las 2 utlimas lineas*
 grep  -n "user" *retorna la linea donde se encontro el filtro*
-awk '{print $1}' FS=":" *filtrame el primer agumento donde el delimitador sea :*
-sed "${line_null}s/\$/0/" -i result.tmp *indico que quiero hacer una sustitucion en una linea espesifica, en un archivo existe*
+awk '{print \$1}' FS=":" *filtrame el primer agumento donde el delimitador sea :*
+sed "\${line_null}s/\$/0/" -i result.tmp *indico que quiero hacer una sustitucion en una linea espesifica, en un archivo existe*
 grep -r -i *-r Busca en la ubicacion actual de forma recursiva, -i quita el case insensitive*
 netstat -ln *Lista los puertos abiertos en nuestro equipo*
 which nano *Saber done se ubica executable nano*
@@ -69,55 +69,29 @@ updatedb *Es una forma de sincronizar todos los archivos a nivel de sistema*
 grep -oP '".\*?"' *Filtra la informacion que este dentro de " "* .\*? *esto significa data*
 xxs -ps -r *Convierte hexadecimal o string*
 find
-
+/etc/hosts *Virtual hosting*
 awk '{print $1 "\_\_" $2 "  " $3 }'  *podemos acomodar los argumentos*
-```bash
-bc1qcegma29qrpemqp7caj6x5y60ktwzq77hzj6mmw_0.00087128 BTC
-bc1qd9ujtjc0ffck2tkm6auqucse3gatf54vunhmlt_0.00281964 BTC
-bc1q0dwws036msu9wpu88suyq7psxau0jr2z9hwlwl_0.01685264 BTC
-```
 awk 'NR%2' *me da el output cada 2 lineas*
 awk 'NR%2{printf "%s ",$0;next;}1'  *sobre este output muestrame un string que es la linea siguiente, 1 para que sea una linea por debajo*
 du -hc file *ver peso del file*
 upx file *comprime el archivo, lo hacer menos pesado*
 ps -eo command *observas todos los comandos que se estan ejecutando actualmente*
+python -m SimpleHTTPServer 80 *Monta un servidor http con python*
+php -S 0.0.0.0:80 *Monta un servidor http*
+shred -zun 10 -v file *Eliminar archivo y las tablas de indices, haciendo mas dificil su recuperacion*
+/proc/net/tcp *Se registra los puertos abiertos ya sea internos como externos*
 
+Se sabe que un archivo de php no se puede leer solo se interpreta, pero existe una manera de burlar esto con los gruapers y un LFI, que consiste en codificar el archivo en base64.
 
+	php://filter/convert.base64-encode/resource=archivo.php
 
-
-Abrir una *bash* desde un more
-
-	presionamos v
-	:set  shell=/bin/bash
-	:shell
-
-
-
-
-144
-
-
-nos permite rotar 13 posiciones
+Nos permite rotar 13 posiciones
 	abcdefgijklmnopqrstuvwxyz
 	cat data.txt
 		Gur cnffjbeq vf WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi
 	cat data.txt | tr '[G-ZA-Fg-za-f]' '[T-ZA-St-za-s]'
 		The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 	
-
-
-
-script bash
-*recore las lineas de un archivo*
-
-	#!/bin/bash
-	
-	contado=1
-	
-	while read line; do
-		echo "Linea $contador: $line"
-		let contador+=1
-	done < /etc/passwd
 
 Bash nos permite ejecutar una sentencia en una sola linea, ejemplo:
 

@@ -118,4 +118,4 @@ root
 bash-5.2# 
 ```
 
-Mas [[Explotacion de privilegios]].
+Mas [[Privilegios]].

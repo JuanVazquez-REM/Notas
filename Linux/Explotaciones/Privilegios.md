@@ -11,7 +11,7 @@ La siguiente informacion nos puede facilitar una escalda, pero exiten muchas mas
 - Contraseñas deficientes
 
 
-### Caso 1
+### Abuso de permisos
 **Configuraciones incorrectas**
 Privilegios de escritura en */etc/passwd*
 
@@ -37,4 +37,22 @@ La idean es colocar un contraseña cifrada en */etc/password* en *root:x:* para 
 
 *Nota:* En caso de tener permiso de escritura en  */etc/shadow* podria hacer lo mismo, crear una contraseña hasheada y editar el usuario.
 
+
+## Abuso de sudo
+Otro escalada seria teniendo un permiso sudo en alguna herramienta como *zip*, ya que con gtfobins podemos encontrar la escalada por *zip*.
+
+	sudo zip file_name /etc/hosts -T -TT 'sh #'
+
+## Abuso de suid
+Este tipo de permiso especial nos algo como el usuario propietario de forma temporal, supongamos que el el *timeout* cuenta con permisos suid por parte del usuario *root*, asi que buscamos en *gtfobins*.
+
+	timeout 7d /bin/sh -p
+
+
+## Abuso de kernel
+Esto se abusa de vulnerabilidades que tiene el propio kernel el cual muy probablemente este desactualizado para que tenga este tipo de vulnerabilidades.
+
+El exploit 40839 de *exploit-db*
+
+Contiene un script en *c* el cual con privilegios de escritura va a crear un usuario nuevo y su contrseña en el */etc/passwd*
 

@@ -1,5 +1,3 @@
-# Fuerza bruta con HashCat
-
 Al capturar el handshake con aircrack-ng podemos aplicar una fuerza bruta a este con [[Conceptos/Hacking Wifi/Herramientas/HashCat | HashCat]] 
 para obtener el password del AC 
 

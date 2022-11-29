@@ -80,6 +80,7 @@ python -m SimpleHTTPServer 80 *Monta un servidor http con python*
 php -S 0.0.0.0:80 *Monta un servidor http*
 shred -zun 10 -v file *Eliminar archivo y las tablas de indices, haciendo mas dificil su recuperacion*
 /proc/net/tcp *Se registra los puertos abiertos ya sea internos como externos*
+grep -oP '\w{1,10}:.\*' *Filtro por expresion regulares \w "Empieza por", {1,10} "1 hasta 10 caracteres" , :.\* "seguido de : muestrame todo lo que le sigue" * 
 
 Se sabe que un archivo de php no se puede leer solo se interpreta, pero existe una manera de burlar esto con los gruapers y un LFI, que consiste en codificar el archivo en base64.
 

@@ -4,7 +4,7 @@ Si bien hasta el momento podemos otorgar *permisos privilegiados* a un usuario y
 Son capacidades que se le puede asignar a un binario, existen varios [tipos de cabalilities](https://man7.org/linux/man-pages/man7/capabilities.7.html).
 Como por ejemplo la capabilitie *CAP_SETUID* que hace referencia a la manipulacion de UID de los procesos.
 
-Ahora supongamos que obtubimos acceso a un sistema con root, dejar alguna accion que nos permita escalar privilegios facilmente en caso de desconectarnos.
+Ahora supongamos que obtubimos acceso a un sistema con root, y se desea dejar alguna accion que nos permita escalar privilegios facilmente en caso de desconectarnos.
 
 Vamos a asignar un capabilitie de tipo *CAP_SETUID* a algun binario.
 

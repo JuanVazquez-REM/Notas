@@ -1,4 +1,3 @@
-# CTS Frame Attack
 Lo que se efectuara sera la captura de la trama CTS para manipular la trama con una duracion alta y enviarlos al AP masivamente para consumir los recursos del AP y mantener los canales demasiamos ocupados como para responder a los clientes legitimos.
 
 ![[Pasted image 20221021143641.png]]

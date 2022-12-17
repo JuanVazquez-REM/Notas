@@ -1,4 +1,3 @@
-# Usuarios
 Como bien sabemos los usaurios del sistema se encuentran en `> /etc/passwd` cada uno de estos usuarios tiene una shell, podemos ver las shells registradas en el sistema.
 
 	> /etc/shells

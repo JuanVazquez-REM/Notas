@@ -5,7 +5,7 @@ por lo tanto se pueden asignar **4.294.967.296 direcciones únicas** pero la can
 
 El objetivo de este protocolo es otorgar ips *privadas* a una red de dispositivos, para que cuando se desean conectar a internet de les otorge una ip *publica*.
 
-Existen varios tipos de funcionamiento
+## Tipos de funcionamiento
 
 - Estatico
 Este funcionamiento le otorga a una ip *privada* de una red una ip *publica* sin ser cambiada.

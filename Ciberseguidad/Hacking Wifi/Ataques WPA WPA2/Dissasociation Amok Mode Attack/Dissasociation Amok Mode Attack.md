@@ -1,6 +1,6 @@
-Este ataque lo que hace es expulsar a los usuarios que se encuentran en la red, esto no deja de ser un *deAuth*.
+Este ataque lo que hace es expulsar a los usuarios que se encuentran en la red, esto no deja de ser un *DeAuth*.
 
-Para esto vamos a generar una lista negra de los usuarios que deseamos expulsar, guardamos las direcciones macs de los dispositivos en un txt.
+Para esto vamos a generar una lista negra de los usuarios que deseamos expulsar, guardamos las direcciones macs de los dispositivos en un text.
 
 	mdk3 wlan1mon d -w blackList.txt -c 6
 

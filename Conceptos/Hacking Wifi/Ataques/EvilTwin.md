@@ -1,4 +1,4 @@
-El ataque elviltwin o gemelo maligno consiste en clonar la red victima desautenticar a los clientes para que se conecten a nuestro AC falso y posterior mente, este ataque se puede hacer con un portal cautivo. 
+El ataque EvilTwin o gemelo maligno consiste en clonar la red victima des autenticar a los clientes para que se conecten a nuestro AC falso y posterior mente, este ataque se puede hacer con un portal cautivo. 
 
 1. Capturar el handshake.
 2. Clonar el AC victima.

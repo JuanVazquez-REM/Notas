@@ -1,4 +1,4 @@
-Existen diccionarios por defecto que tiene kali linux, se encentran en la ruta.
+Existen diccionarios por defecto que tiene Kali Linux, se encentran en la ruta.
 
 	/usr/share/wordlists
 

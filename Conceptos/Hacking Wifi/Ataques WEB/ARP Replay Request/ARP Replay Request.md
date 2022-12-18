@@ -1,12 +1,11 @@
-# ARP Replay Request
-Existen otro ataques para redes WEB como **FMS PTW que estos nesesitan recolipar un numero bastanta grande de tramas** para tener exito y estos se realizan de **forma pasiva, olfateando trafico inalambrico en el mismo canal del acceso point objetivo.**
+Existen otro ataques para redes WEB como **FMS PTW que estos necesitan recopilar un numero bastante grande de tramas** para tener éxito y estos se realizan de **forma pasiva, olfateando trafico inalámbrico en el mismo canal del acceso point objetivo.**
 
-El problema de esto es que en condiciones normales tendremos que esperar mucho tiempo recopilando pasivamente todos los paquetes nesesarios para el ataque y para acelerar el proceso lo ideal es inyectar tramas en la red para generar trafico en respuesta de modo que podamos recolectar los [[IVs]] nesesarios mas rapidamente.
+El problema de esto es que en condiciones normales tendremos que esperar mucho tiempo recopilando pasivamente todos los paquetes necesarios para el ataque y para acelerar el proceso lo ideal es inyectar tramas en la red para generar trafico en respuesta de modo que podamos recolectar los [[IVs]] necesarios mas rápidamente.
 
-Un tipo de trama adecuado para este proposito es la solicitud [[ARP]] por que el access point difunde cada vez con un nuevo IVs es decir con un nuevo vector de iniciacion.
+Un tipo de trama adecuado para este propósito es la solicitud [[ARP]] por que el access point difunde cada vez con un nuevo IVs es decir con un nuevo vector de iniciación.
 
-Como usted no esta asociada al access point , si envia tramas directamente se descartaran y se envia una trama de autentificacion a su direccion MAC.
+Como usted no esta asociada al access point , si envía tramas directamente se descartaran y se envía una trama de autentificación a su dirección MAC.
 
-En cambios, se puede capturar solicitudes ARP de clientes asociados y restransmitirlas al accesspoint.
+En cambios, se puede capturar solicitudes ARP de clientes asociados y retransmitirlas al access point.
 
-Esta tecnica se llama **ARP Replay Request**.
+Esta técnica se llama **ARP Replay Request**.

@@ -3,9 +3,9 @@ Este modo nos permite interceptar/capturar todos lo paquetes que se encuentran e
 	airmon-ng start wlan0
 Iniciamos la interfaz de red en modo monitor
 
-Respecto a algunos procesos que pueden interumpir ciertas tareas al realizar un ataque serian los siguientes:
+Respecto a algunos procesos que pueden interrumpir ciertas tareas al realizar un ataque serian los siguientes:
 
--dhclient *Es un servicio DHCP que se encargar de asignar una ip al dispositivo(Direccion Mac)*
+-dhclient *Es un servicio DHCP que se encargar de asignar una ip al dispositivo(Dirección Mac)*
 -wpa_supplincant *Este servicio se encargar de que continuamente estemos conectados a la red wifi*
 
 

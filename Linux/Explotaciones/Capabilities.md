@@ -1,12 +1,12 @@
-Si bien hasta el momento podemos otorgar *permisos privilegiados* a un usuario ya sea con *SUID* o con *sudo*, pero tambien existen las *capabilities*.
+Si bien hasta el momento podemos otorgar *permisos privilegiados* a un usuario ya sea con *SUID* o con *sudo*, pero también existen las *capabilities*.
 
-¿Que son?
+¿Qué son?
 Son capacidades que se le puede asignar a un binario, existen varios [tipos de cabalilities](https://man7.org/linux/man-pages/man7/capabilities.7.html).
-Como por ejemplo la capabilitie *CAP_SETUID* que hace referencia a la manipulacion de UID de los procesos.
+Como por ejemplo la capabilitie *CAP_SETUID* que hace referencia a la manipulación de UID de los procesos.
 
-Ahora supongamos que obtubimos acceso a un sistema con root, y se desea dejar alguna accion que nos permita escalar privilegios facilmente en caso de desconectarnos.
+Ahora supongamos que obtuvimos acceso a un sistema con root, y se desea dejar alguna acción que nos permita escalar privilegios fácilmente en caso de desconectarnos.
 
-Vamos a asignar un capabilitie de tipo *CAP_SETUID* a algun binario.
+Vamos a asignar un capabilitie de tipo *CAP_SETUID* a algún binario.
 
 ``` bash
 ❯ setcap cap_setuid+ep /usr/bin/python3.10
@@ -19,7 +19,7 @@ Una vez hecho esto podemos buscar los binarios que tengan alguna capabilitie
 
 	getcap -r / 2>/dev/null
 
-Este tipo de capabilitie nos permite ejecutar comando como otro usuario, revelando su uid, cada usuario lo tiene, lo puede vizualizar con `id`, si bien sabemos el uid de root es 0.
+Este tipo de capabilitie nos permite ejecutar comando como otro usuario, revelando su uid, cada usuario lo tiene, lo puede visualizar con `id`, si bien sabemos el uid de root es 0.
 
 ``` bash
 ❯ getcap -r / 2>/dev/null
@@ -41,10 +41,10 @@ root
 
 	setcap -r /usr/bin/python3.10
 
-Igualemente en [GTFobins ](https://gtfobins.github.io/#+capabilities) podemos encontrar algunas capabilities las cuales podemos utilizar para escalar privilegios.
+Igualmente en [GTFobins ](https://gtfobins.github.io/#+capabilities) podemos encontrar algunas capabilities las cuales podemos utilizar para escalar privilegios.
 
 
-*Explotacion con php*
+*Explotación con php*
 ``` bash
 ❯ setcap cap_setuid+ep /usr/bin/php8.1
 

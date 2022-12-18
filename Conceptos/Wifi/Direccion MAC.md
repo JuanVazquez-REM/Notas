@@ -1,5 +1,4 @@
-# MAC
-Es un identificador unico para un dispositivo o tarjeta de red, este identificador es de 48 bits, con este identificador podemos ver el fabricante.
+Es un identificador único para un dispositivo o tarjeta de red, este identificador es de 48 bits, con este identificador podemos ver el fabricante.
 
 ## Estructura
 

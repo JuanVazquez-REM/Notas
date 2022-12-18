@@ -2,7 +2,7 @@ Supongamos que tenemos una captura del trafico de un AP y *registramos un handsh
 
 	tshark -r CapturaDeAuth.cap -Y "http" 2>/dev/null
 
-Y vemos que no hay ningun resultado. *Esto pasa por que todo el trafico interno de la red esta encriptado con la password de AP*.
+Y vemos que no hay ningún resultado. *Esto pasa por que todo el trafico interno de la red esta encriptado con la password de AP*.
 
 Ahora si disponemos de la password podemos desencriptar el trafico con la herramienta airdecap-ng.
 
@@ -23,5 +23,5 @@ Number of bad TKIP (WPA) packets         0
 Number of bad CCMP (WPA) packets         0
 ```
 
-Ahora con el archivo *CapturaTrafico-01-dec.cap* podemo inspecionar los paquenes *dns*, *http* y posiblemente la data enviada por este, *recordemos que si se envio data por https* no podremos vizualizarla con este decifrado. 
+Ahora con el archivo *CapturaTrafico-01-dec.cap* podemos inspeccionar los paquetes *dns*, *http* y posiblemente la data enviada por este, *recordemos que si se envió data por https* no podremos visualizarla con este descifrado. 
 

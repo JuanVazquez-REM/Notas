@@ -1,7 +1,6 @@
-# Rainbow table
 Un ataque de tabla arco iris es un método de descifrado de contraseñas que utiliza una tabla especial (una "tabla arco iris") para descifrar los hashes de contraseña en una base de datos.
 
-La tabla arco iris en sí se refiere a una tabla precalculada que contiene el valor hash de contraseña para cada carácter de texto sin formato utilizado durante el proceso de autenticación.
+La tabla arco iris en sí se refiere a una tabla pre-calculada que contiene el valor hash de contraseña para cada carácter de texto sin formato utilizado durante el proceso de autenticación.
 
 
 ## Cómo protegerse contra un ataque de mesa arco iris

@@ -1,5 +1,5 @@
-**¿Que es el PATH Hijacking?**
-Empezemos con el PATH es una variable de entorno el cual tiene rutas del sistema, esto para que es?
+**¿Qué es el PATH Hijacking?**
+Empecemos con el PATH es una variable de entorno el cual tiene rutas del sistema, esto para que es?
 Esto nos ayuda a identificar los comando, es decir que si nosotros colocamos `nmap` en un CLI buscara este binario en las rutas que tiene establecidas en el PATH.
 
 ``` bash
@@ -17,11 +17,11 @@ s4tisfacti0n
 s4tisfacti0n
 ```
 
-En el primer comando se utiliza el PATH para buscar el binario, pero en el segundo no hace falta ya que referenciamos la ubicacion exacta de donde se encuentra este, *por lo tando asi podemos evitar ataques como path hijacking*.
+En el primer comando se utiliza el PATH para buscar el binario, pero en el segundo no hace falta ya que referenciamos la ubicación exacta de donde se encuentra este, *por lo tanto así podemos evitar ataques como path hijacking*.
 
 Ahora este ataque consiste en modificar el PATH para apuntar a otro archivo de formar que no responda el binario legitimo.
 
-En este caso explotaremos de un script con permisos SUID, empezaremos con un pequeño script en C que muestre los procesos que se esten ejecutando, esto lo podemo ver con la utilidad de *ps*.
+En este caso explotaremos de un script con permisos SUID, empezaremos con un pequeño script en C que muestre los procesos que se estén ejecutando, esto lo podemos ver con la utilidad de *ps*.
 
 ``` c
 #include <stdio.h>
@@ -43,7 +43,7 @@ Este script se tiene que exportar en binario para poder ejecutarse
 
 	gcc process.c -o process
 
-Ahora la intencion es crear un archivo *ps* en la ruta actual y modificar el PATH para *indicar la ruta de nuestro archivo ps*.
+Ahora la intención es crear un archivo *ps* en la ruta actual y modificar el PATH para *indicar la ruta de nuestro archivo ps*.
 Añadimos la ruta actual al PATH
 
 ``` bash
@@ -84,10 +84,10 @@ root
 bash-5.2# 
 ```
 
-*Nota:* Los cambios en PATH son temporales es decir que se eliminan al terminar la sesion.
+*Nota:* Los cambios en PATH son temporales es decir que se eliminan al terminar la sesión.
 
 **¿Que es el Library Hijacking?**
-Esto viene siendo la misma dinamica que el PATH Hijacking pero apuntado a las librerias, supongamos que tenemos un script en python que realiza una peticion *GET* a una pagina y nos devuelve un *codigo de respuesta*.
+Esto viene siendo la misma dinámica que el PATH Hijacking pero apuntado a las librerías, supongamos que tenemos un script en python que realiza una peticion *GET* a una pagina y nos devuelve un *codigo de respuesta*.
 
 ``` python
 #!/usr/bin/python3
@@ -101,7 +101,7 @@ print(response)
 <Response [200]>
 ```
 
-Para vizualizar el PATH que sigue python lo podemos hacer con *sys*
+Para visualizar el PATH que sigue python lo podemos hacer con *sys*
 
 ``` bash
 ❯ python3 -c "import sys ; print(sys.path)"

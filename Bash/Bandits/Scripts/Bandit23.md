@@ -1,5 +1,4 @@
-# Bandit23
-Analisando el script [[Archivos#Cron]] que de
+Analizando el script [[Archivos#Cron]] que de
 ```bash
 #!/bin/bash
 
@@ -25,7 +24,7 @@ done
 Recorre todos los archivos de un directorio
 
 	if [ "$i" != "." -a "$i" != ".." ];
-Condicion para ignorar archivos . y ..
+Condición para ignorar archivos . y ..
 El . hace referencia al directorio actual
 -a es igual que un AND
 El .. hace referencia al retroceso del directorio

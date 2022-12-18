@@ -1,6 +1,6 @@
-Esta utilidad tiene como objetivo el *descubrimiento del sistema opertivo* de una maquina mediante el TTL de una traza ICMP con *python3*.
+Esta utilidad tiene como objetivo el *descubrimiento del sistema operativo* de una maquina mediante el TTL de una traza ICMP con *python3*.
 
-Existen muchas herramientas como *nmap* que pueden hacer esto y mas, pero por lo general son muy ruidosas y pueden llamar la atencion.
+Existen muchas herramientas como *nmap* que pueden hacer esto y mas, pero por lo general son muy ruidosas y pueden llamar la atención.
 
 ``` python
 #!/usr/bin/python3

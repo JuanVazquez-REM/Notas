@@ -1,6 +1,6 @@
 Una tarea [[Archivos#Cron|Cron]] se encargar de ejecutar ciertos algoritmos cada cierto tiempo.
 
-Primero vamos agregar una nueva tarea cron y inicar el servicio, las tareas se ubican en ` /etc/cron.d ` y deben de contener una [[Archivos#Estructura de tiempos|Estrucutra]].
+Primero vamos agregar una nueva tarea cron y indicar el servicio, las tareas se ubican en ` /etc/cron.d ` y deben de contener una [[Archivos#Estructura de tiempos|Estrucutra]].
 
 ``` bash
 #Estructura por defecto(1 min)
@@ -9,8 +9,8 @@ Primero vamos agregar una nueva tarea cron y inicar el servicio, las tareas se u
 
 Ah este punto la tarea cron esta lista, creamos el archivo y le damos permisos *x* y *w*.
 
-**Explotacion**
-Como podemos identificar una tarea cron? con `ps -eo command` podemos vizualizar los comandos que se estan ejecutando en tiempo real.
+**Explotación**
+Como podemos identificar una tarea cron? con `ps -eo command` podemos visualizar los comandos que se están ejecutando en tiempo real.
 Para esto realizaremos un pequeño script.
 
 ``` bash
@@ -26,7 +26,7 @@ Para esto realizaremos un pequeño script.
 10 done
 ```
 
-Una vez que ejecutemos nuestro script podemos vizualizar la tarea cron que hemos creado, ahora a explotar esta *recordar que el file.sh ejecutado tiene permisos e escritura asi que lo podemos modificar*.
+Una vez que ejecutemos nuestro script podemos visualizar la tarea cron que hemos creado, ahora a explotar esta *recordar que el file.sh ejecutado tiene permisos e escritura así que lo podemos modificar*.
 
 Como la tarea cron se esta ejecutando como root lo que vamos hacer es asignar permisos *suid* a la `/bin/bash`.
 ``` bash

@@ -1,17 +1,16 @@
 
-
 ## Tipos de datos personales
 
 **Datos voluntarios**
-Estos son los datos que usted acepta compartir y ser almacenados en algun lugar de la red.
+Estos son los datos que usted acepta compartir y ser almacenados en algún lugar de la red.
 
 **Datos deducidos/inferido**
-Estos datos se generan por sus actividades, por ejemplo el uso de su tarjeta de credito al comprar un articulo, esta informacion puede ser enviada y procesada para generar mas interes sobre el producto relacionado o en caso de que use su tarjeta para realizar un retiro en otro pais del mundo, su banco sabra que usted es de un pais de origen y pero realizo un retiro en otro pais, por lo tanto se puede intuir que usted viaje, estos datos son alamcenados por el banco pero estos datos no lo ofrecio voluntariamente.
+Estos datos se generan por sus actividades, por ejemplo el uso de su tarjeta de crédito al comprar un articulo, esta informacion puede ser enviada y procesada para generar mas interés sobre el producto relacionado o en caso de que use su tarjeta para realizar un retiro en otro pais del mundo, su banco sabrá que usted es de un pais de origen y pero realizo un retiro en otro pais, por lo tanto se puede intuir que usted viaje, estos datos son almacenados por el banco pero estos datos no lo ofreció voluntariamente.
 
 **Datos observados**
-Estos suelen ser los datos que genera un telefono, por ejemplo este puede hacer un seguimiento de su ubicacion y estos datos pueden ser transmitidos a su proveedor, esa informacion se esta recopilando y almacenados masivamente.
+Estos suelen ser los datos que genera un teléfono, por ejemplo este puede hacer un seguimiento de su ubicación y estos datos pueden ser transmitidos a su proveedor, esa informacion se esta recopilando y almacenados masivamente.
 
-Por lo tanto debemos de tener cuidado con la informacion que compartimos al hace algo tan facil como un click.
+Por lo tanto debemos de tener cuidado con la informacion que compartimos al hace algo tan fácil como un click.
 
 
 ## El bit 

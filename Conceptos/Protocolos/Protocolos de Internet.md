@@ -20,7 +20,7 @@ Se utiliza para **transmitir datagramas de forma rápida en redes IP** y funcion
 ## Tipos de paquetes
 
 ### SYN
-Este paquete se envia cuando el cliente desea establecer una conexion, manda un paquete SYN (snychronize) con un numero de secuencia inidividual o aleatorio. Este numero garantiza la transmicion completamente en orden, sin *duplicados*, por si todo esta correcto consecuencia crea una sesion para su comunicacion.
+Este paquete se envía cuando el cliente desea establecer una conexión, manda un paquete SYN (snychronize) con un numero de secuencia individual o aleatorio. Este numero garantiza la transmisión completamente en orden, sin *duplicados*, por si todo esta correcto consecuencia crea una sesion para su comunicacion.
 
 Se usa para **sincronizar los números de secuencia en tres tipos de segmentos: petición de conexión, confirmación de conexión (con ACK activo) y la recepción de la confirmación (con ACK activo)**.
 
@@ -29,12 +29,12 @@ Se usa para **sincronizar los números de secuencia en tres tipos de segmentos:
 
 ### NAT
 Es el modo de conexion mas facil para que una MV tenga conexion a internet.
-Funciona de la siguiente manera, VM coloca un router DHCP entre la conexion externa (Internet) y las MV's, dicho router asigna ip's apartir de una subred.
-Por lo tanto la subred esta aislada de la red fisica.
+Funciona de la siguiente manera, VM coloca un router DHCP entre la conexión externa (Internet) y las MV's, dicho router asigna ip's a partir de una subred.
+Por lo tanto la subred esta aislada de la red física.
 
-Nota: Existe conexion por parte del host NAT.
+Nota: Existe conexión por parte del host NAT.
 
 ### Briged
-Este modo simula que la tarjeta de red virutal esta conectada a la red, por lo tanto la maquina virtual se hace pasar por una maquina fisica, por lo tanto puede interactuar con las demas maquinas.
+Este modo simula que la tarjeta de red virtual esta conectada a la red, por lo tanto la maquina virtual se hace pasar por una maquina física, por lo tanto puede interactuar con las demás maquinas.
 
 

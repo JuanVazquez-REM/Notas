@@ -1,5 +1,4 @@
-# DeCompressor
-Desafio bandit12
+Desafío bandit12
 
 La contraseña esta en un archivo que ah sido comprimido consecutivamente, se tiene que descomprimir cada uno de estos hasta llegar al archivo.
 
@@ -32,7 +31,7 @@ Headers Size = 20
 ```
 
 grep "name" *para ubicarnos cerca de la linea*
-grep "name" -A 2 *devuelve las 2 lineas por debajo de la buscada*
+grep "name" -A 2 *devuelve las 2 líneas por debajo de la buscada*
 tail -n 1 *devuelve la ultima linea*
 awk 'NF{print $NF}' *obtiene el ultimo argumento del output*
 
@@ -43,7 +42,7 @@ data2.bin
 ```
 Automatizar con script
 
-```bash
+``` bash
 !/bin/bash
 
 name_decompressed=$(7z l data.gzip | grep "Name" -A 2 | tail -n 1 | >

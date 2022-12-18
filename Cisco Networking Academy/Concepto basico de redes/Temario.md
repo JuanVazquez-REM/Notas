@@ -1,4 +1,4 @@
-Los estudiantes al finalizar este curso podran realizar las siguientes tareas:
+Los estudiantes al finalizar este curso podrán realizar las siguientes tareas:
 
 -   Explicar conceptos importantes en la comunicación de red.
 -   Explicar los tipos de red, los componentes y las conexiones.

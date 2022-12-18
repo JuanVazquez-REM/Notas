@@ -1,4 +1,4 @@
-WireShark  al igual que [[Tshark]], es una herramienta para el analisis de la red, provando si existe una actidad sospechosa, latencia o fallos en la red. Tambien permite importar capturas de red para su analisis.
+WireShark  al igual que [[Tshark]], es una herramienta para el análisis de la red, probando si existe una actividad sospechosa, latencia o fallos en la red. También permite importar capturas de red para su análisis.
 
 
 ## Uso

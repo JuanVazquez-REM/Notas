@@ -1,0 +1,15 @@
+{
+  "accentColor": "",
+  "cssTheme": "Things",
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "baseFontSize": 17,
+  "baseFontSizeAction": true,
+  "monospaceFontFamily": "",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "center-images"
+  ],
+  "showViewHeader": false,
+  "nativeMenus": false
+}

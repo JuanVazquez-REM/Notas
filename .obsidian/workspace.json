@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "47b3839e43772c64",
+        "id": "6447124c5a6bdf46",
         "type": "tabs",
         "children": [
           {
-            "id": "96b58ad646a1d308",
+            "id": "6bd0dbbdc1df5372",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Utilidades/WhichSystem.md",
+                "file": "Conceptos/Redes/Direccionamiento IPv4 y Subredes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bits",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 250.5
+    "width": 289.5
   },
   "right": {
     "id": "ded3a84c312b27d8",
@@ -79,7 +79,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Utilidades/WhichSystem.md",
+                "file": "Conceptos/Redes/Direccionamiento IPv4 y Subredes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -95,25 +95,34 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "5e0f0f78d0a70062",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
-  "active": "96b58ad646a1d308",
+  "active": "6bd0dbbdc1df5372",
   "lastOpenFiles": [
-    "OSINT/3. Cadena de custodia.md",
-    "OSINT/2. GEOINT.md",
-    "OSINT/1. Que es y su aplicacion.md",
-    "Linux/Usuarios & Permisos.md",
-    "Linux/Tratamiento TTY.md",
-    "Linux/Kernel & SO.md",
-    "Linux/Archivos.md",
-    "Linux/Software/Iptables.md",
-    "Linux/Explotaciones/Tareas Cron.md",
-    "Linux/Explotaciones/Privilegios.md"
+    "Conceptos/Redes/Direccionamiento IPv4 y Subredes.md",
+    "Conceptos/Redes/Analisis de Puertos.md",
+    "Pasted image 20221217202011.png",
+    "Images/Pasted image 20221217202025.png",
+    "Images/Pasted image 20221217201938.png",
+    "Images/Pasted image 20221217201913.png",
+    "Pasted image 20221217201836.png",
+    "Pasted image 20221217201505.png",
+    "Images/Pasted image 20221217194751.png",
+    "Pasted image 20221217194729.png"
   ]
 }

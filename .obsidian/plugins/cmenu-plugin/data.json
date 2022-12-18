@@ -30,11 +30,25 @@
       "id": "workspace:export-pdf",
       "name": "Export to PDF",
       "icon": "pdf-file"
+    },
+    {
+      "id": "table-editor-obsidian:table-control-bar",
+      "name": "Advanced Tables: Open table controls toolbar",
+      "hotkeys": [
+        {
+          "modifiers": [
+            "Mod",
+            "Shift"
+          ],
+          "key": "d"
+        }
+      ],
+      "icon": "bullet-list-glyph"
     }
   ],
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
   "cMenuVisibility": true,
   "cMenuBottomValue": 4.25,
-  "cMenuNumRows": 6
+  "cMenuNumRows": 7
 }

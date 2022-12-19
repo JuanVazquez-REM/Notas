@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "6447124c5a6bdf46",
+        "id": "08788814c2388513",
         "type": "tabs",
         "children": [
           {
-            "id": "6bd0dbbdc1df5372",
+            "id": "e444c5cdc835a342",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Conceptos/Redes/Direccionamiento IPv4 y Subredes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -39,7 +34,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bits",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +74,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos/Redes/Direccionamiento IPv4 y Subredes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,17 +106,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "6bd0dbbdc1df5372",
+  "active": "e444c5cdc835a342",
   "lastOpenFiles": [
-    "Conceptos/Redes/Direccionamiento IPv4 y Subredes.md",
+    "Conceptos/Redes/Tecnicas de seguridad/DMZ.md",
+    "Conceptos/Redes/Direccionamiento IPv4.md",
+    "Conceptos/Redes/Subnetting/Subredes.md",
+    "Conceptos/Redes/Subnetting/VLSM.md",
+    "Conceptos/Redes/NAT.md",
+    "Images/Pasted image 20221218165636.png",
+    "Pasted image 20221218011304.png",
+    "Pasted image 20221218003309.png",
     "Conceptos/Redes/Analisis de Puertos.md",
-    "Pasted image 20221217202011.png",
-    "Images/Pasted image 20221217202025.png",
-    "Images/Pasted image 20221217201938.png",
-    "Images/Pasted image 20221217201913.png",
-    "Pasted image 20221217201836.png",
-    "Pasted image 20221217201505.png",
-    "Images/Pasted image 20221217194751.png",
-    "Pasted image 20221217194729.png"
+    "Pasted image 20221217202011.png"
   ]
 }

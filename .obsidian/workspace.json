@@ -11,11 +11,30 @@
             "id": "e444c5cdc835a342",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Bash/OverTheWire/1. Bandits/Bandits.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff6fcc3e084a55de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bash/OverTheWire/2. Leviathan/Leviathan.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,6 +93,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Bash/OverTheWire/2. Leviathan/Leviathan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -106,17 +126,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "e444c5cdc835a342",
+  "active": "ff6fcc3e084a55de",
   "lastOpenFiles": [
+    "Bash/OverTheWire/1. Bandits/Bandits.md",
+    "Bash/OverTheWire/2. Leviathan/Leviathan.md",
+    "Bash/OverTheWire/OverTheWire.md",
     "Conceptos/Redes/Tecnicas de seguridad/DMZ.md",
     "Conceptos/Redes/Direccionamiento IPv4.md",
     "Conceptos/Redes/Subnetting/Subredes.md",
     "Conceptos/Redes/Subnetting/VLSM.md",
     "Conceptos/Redes/NAT.md",
     "Images/Pasted image 20221218165636.png",
-    "Pasted image 20221218011304.png",
-    "Pasted image 20221218003309.png",
-    "Conceptos/Redes/Analisis de Puertos.md",
-    "Pasted image 20221217202011.png"
+    "Pasted image 20221218011304.png"
   ]
 }

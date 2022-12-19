@@ -5,11 +5,11 @@
     "fontSize": 15,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiLockPasswordFill",
       "📁",
       "RiLockPasswordLine",
       "SiGnubash",
-      "IbFolder",
-      "SiPythonWhite"
+      "IbFolder"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -79,13 +79,9 @@
   "Ciberseguidad/Pentesting/Tecnicas/Fuzzing": "📁",
   "Ciberseguidad/Pentesting/Vulnerabilidades/Injection SQL": "📁",
   "Ciberseguidad/Pentesting/Vulnerabilidades/Padding Oracle Attack": "📁",
-  "Bash/Bandits": "📁",
   "Bash/Scrips": "📁",
   "Bash/Comandos.md": "SiGnubash",
   "Bash/Scrips/btcAnalizer.md": "SiGnubash",
-  "Bash/Bandits/Scripts/DeCompressor #12.md": "SiGnubash",
-  "Bash/Bandits/Scripts/Bandit23.md": "SiGnubash",
-  "Bash/Bandits/Scripts": "📁",
   "Ciberseguidad/Hacking Wifi/Analisis de trafico": "📁",
   "Ciberseguidad/Hacking Wifi/Ataques Fuerza Bruta": "📁",
   "Ciberseguidad/Hacking Wifi/Ataques WEB": "📁",
@@ -114,5 +110,14 @@
   "Conceptos/Redes/Monitoreo de red": "📁",
   "Conceptos/Redes/Monitoreo de red/Herramientas": "📁",
   "Conceptos/Redes/Subnetting": "📁",
-  "Conceptos/Redes/Tecnicas de seguridad": "📁"
+  "Conceptos/Redes/Tecnicas de seguridad": "📁",
+  "Bash/OverTheWire": "📁",
+  "Bash/OverTheWire/1. Bandits": "📁",
+  "Bash/OverTheWire/1. Bandits/Scripts": "📁",
+  "Bash/OverTheWire/1. Bandits/Scripts/Bandit23.md": "SiGnubash",
+  "Bash/OverTheWire/1. Bandits/Scripts/DeCompressor #12.md": "SiGnubash",
+  "Bash/OverTheWire/2. Leviathan": "📁",
+  "Bash/OverTheWire/2. Leviathan/Scripts": "📁",
+  "Bash/OverTheWire/1. Bandits/Bandits.md": "RiLockPasswordFill",
+  "Bash/OverTheWire/2. Leviathan/Leviathan.md": "RiLockPasswordFill"
 }

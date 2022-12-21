@@ -41,7 +41,6 @@
   "Conceptos/Ciberseguridad/MouseJacking": "📁",
   "Conceptos/Ciberseguridad/Payload": "📁",
   "Conceptos/Hacking Wifi/Ataques WEB": "📁",
-  "Conceptos/Hacking Wifi/Ataques WEB/ARP": "📁",
   "Conceptos/Hacking Wifi/Ataques WEB/ARP Replay Request": "📁",
   "Conceptos/Hacking Wifi/Diccionarios": "📁",
   "Conceptos/Hacking Wifi/Diccionarios/Herramientas": "📁",
@@ -119,5 +118,11 @@
   "Bash/OverTheWire/2. Leviathan": "📁",
   "Bash/OverTheWire/2. Leviathan/Scripts": "📁",
   "Bash/OverTheWire/1. Bandits/Bandits.md": "RiLockPasswordFill",
-  "Bash/OverTheWire/2. Leviathan/Leviathan.md": "RiLockPasswordFill"
+  "Bash/OverTheWire/2. Leviathan/Leviathan.md": "RiLockPasswordFill",
+  "Conceptos/Redes/Supernetting": "📁",
+  "Conceptos/Redes/Enrutamiento IPv4": "📁",
+  "Conceptos/Redes/Enrutamiento IPv4/Protocolos de enrutameinto": "📁",
+  "Conceptos/Redes/Modelos de red": "📁",
+  "Conceptos/Redes/Modelos de red/Modelo OSI": "📁",
+  "Conceptos/Redes/Tramas": "📁"
 }

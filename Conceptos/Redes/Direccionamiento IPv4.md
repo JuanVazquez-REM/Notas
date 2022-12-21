@@ -105,3 +105,6 @@ También podemos utilizar una notación de prefijo de red, de manera mucho mas s
 10.3.2.12/8 -> /8 *Prefijo de red (clase A)*
 
 
+### Tabla de direccionamiento IPv4
+
+![[TablaDeDireccionamientoIPv4.png]]

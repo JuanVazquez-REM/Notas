@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "08788814c2388513",
+        "id": "924a13556179d18c",
         "type": "tabs",
         "children": [
           {
-            "id": "e444c5cdc835a342",
+            "id": "0189639f8564c8a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bash/OverTheWire/1. Bandits/Bandits.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff6fcc3e084a55de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bash/OverTheWire/2. Leviathan/Leviathan.md",
+                "file": "Conceptos/Redes/Enrutamiento IPv4/4. Logica de reenvio de paquetes del router.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -34,7 +21,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -53,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ARP",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +64,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 287.5
   },
   "right": {
     "id": "ded3a84c312b27d8",
@@ -93,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bash/OverTheWire/2. Leviathan/Leviathan.md",
+                "file": "Conceptos/Redes/Enrutamiento IPv4/4. Logica de reenvio de paquetes del router.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,17 +113,17 @@
     "width": 200,
     "collapsed": true
   },
-  "active": "ff6fcc3e084a55de",
+  "active": "0189639f8564c8a4",
   "lastOpenFiles": [
-    "Bash/OverTheWire/1. Bandits/Bandits.md",
-    "Bash/OverTheWire/2. Leviathan/Leviathan.md",
-    "Bash/OverTheWire/OverTheWire.md",
-    "Conceptos/Redes/Tecnicas de seguridad/DMZ.md",
-    "Conceptos/Redes/Direccionamiento IPv4.md",
-    "Conceptos/Redes/Subnetting/Subredes.md",
-    "Conceptos/Redes/Subnetting/VLSM.md",
-    "Conceptos/Redes/NAT.md",
-    "Images/Pasted image 20221218165636.png",
-    "Pasted image 20221218011304.png"
+    "Conceptos/Redes/Tramas/Ethernet.md",
+    "Conceptos/Redes/Enrutamiento IPv4/4. Logica de reenvio de paquetes del router.md",
+    "Conceptos/Wifi/Tramas y Paquetes/Tramas RTS & CTS.md",
+    "Conceptos/Wifi/Tramas y Paquetes/Tramas y Paquetes.md",
+    "Pasted image 20221219160146.png",
+    "Pasted image 20221219155847.png",
+    "Pasted image 20221220135844.png",
+    "Pasted image 20221220141448.png",
+    "Pasted image 20221220143027.png",
+    "Pasted image 20221220143349.png"
   ]
 }

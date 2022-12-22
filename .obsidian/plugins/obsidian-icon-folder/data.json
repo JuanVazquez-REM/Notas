@@ -5,11 +5,11 @@
     "fontSize": 15,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabAccessibleIcon",
       "RiLockPasswordFill",
       "📁",
       "RiLockPasswordLine",
-      "SiGnubash",
-      "IbFolder"
+      "SiGnubash"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -124,5 +124,6 @@
   "Conceptos/Redes/Enrutamiento IPv4/Protocolos de enrutameinto": "📁",
   "Conceptos/Redes/Modelos de red": "📁",
   "Conceptos/Redes/Modelos de red/Modelo OSI": "📁",
-  "Conceptos/Redes/Tramas": "📁"
+  "Conceptos/Redes/Tramas": "📁",
+  "Conceptos/Wifi/Tramas y Paquetes/Tramas RTS & CTS.md": "📁"
 }

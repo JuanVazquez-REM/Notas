@@ -5,11 +5,11 @@
     "fontSize": 15,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiImageFill",
+      "RiVideoLine",
       "FabAccessibleIcon",
       "RiLockPasswordFill",
-      "📁",
-      "RiLockPasswordLine",
-      "SiGnubash"
+      "📁"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -26,7 +26,6 @@
   "Cisco Networking Academy/Concepto basico de redes": "SiCisco",
   "Cisco Networking Academy/Introduccion a la ciberseguridad": "SiCisco",
   "Conceptos": "📁",
-  "Images": "📁",
   "Linux": "📁",
   "OSINT": "📁",
   "Python": "📁",
@@ -125,5 +124,8 @@
   "Conceptos/Redes/Modelos de red": "📁",
   "Conceptos/Redes/Modelos de red/Modelo OSI": "📁",
   "Conceptos/Redes/Tramas": "📁",
-  "Conceptos/Wifi/Tramas y Paquetes/Tramas RTS & CTS.md": "📁"
+  "Conceptos/Wifi/Tramas y Paquetes/Tramas RTS & CTS.md": "📁",
+  "Assets/Videos": "RiVideoLine",
+  "Assets/Images": "RiImageFill",
+  "Assets": "📁"
 }

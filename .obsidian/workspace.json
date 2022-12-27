@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "109488e8be786296",
+            "id": "bac27a7c448695ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceptos/Redes/Enrutamiento IPv4/8. Rutas flotantes.md",
+                "file": "Conceptos/Redes/Enrutamiento IPv4/9. Interpretar una tabla de routing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos/Redes/Enrutamiento IPv4/8. Rutas flotantes.md",
+                "file": "Conceptos/Redes/Enrutamiento IPv4/9. Interpretar una tabla de routing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,17 +120,17 @@
       "random-note:Abrir nota al azar": false
     }
   },
-  "active": "109488e8be786296",
+  "active": "bac27a7c448695ad",
   "lastOpenFiles": [
-    "Pasted image 20221226175234.png.md",
     "Conceptos/Redes/Enrutamiento IPv4/8. Rutas flotantes.md",
+    "Conceptos/Redes/Enrutamiento IPv4/9. Interpretar una tabla de routing.md",
+    "Conceptos/Redes/Tecnicas de seguridad/DMZ.md",
+    "Pasted image 20221226175234.png.md",
     "Pasted image 20221226175234.png",
     "Pasted image 20221226153922.png",
     "Pasted image 20221226130614.png",
     "Pasted image 20221226153754.png",
     "Pasted image 20221226164720.png",
-    "Conceptos/Redes/Enrutamiento IPv4/7. Logica de selecion de mejor ruta.md",
-    "Test.canvas",
-    "Linux/Software/Iptables.md"
+    "Conceptos/Redes/Enrutamiento IPv4/7. Logica de selecion de mejor ruta.md"
   ]
 }

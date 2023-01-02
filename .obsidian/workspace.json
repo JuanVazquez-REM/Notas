@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "55813765f63c8a10",
+            "id": "5ba8d2eadd719d1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Conceptos/Redes/Enrutamiento IPv4/10. Diferencias entre IGP y EGP.md",
+                "file": "Conceptos/Redes/Enrutamiento IPv4/13. OSPF - Vision general.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Conceptos/Redes/Enrutamiento IPv4/10. Diferencias entre IGP y EGP.md",
+                "file": "Conceptos/Redes/Enrutamiento IPv4/13. OSPF - Vision general.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,17 +120,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "55813765f63c8a10",
+  "active": "5ba8d2eadd719d1f",
   "lastOpenFiles": [
-    "Pasted image 20221231214804.png",
+    "Conceptos/Redes/Enrutamiento IPv4/12. Metricas de protocolos de routing.md",
+    "Conceptos/Redes/Enrutamiento IPv4/13. OSPF - Vision general.md",
+    "Conceptos/Redes/Enrutamiento IPv4/11. Funcionamieno de protocolos de enrutamiento.md",
     "Conceptos/Redes/Enrutamiento IPv4/10. Diferencias entre IGP y EGP.md",
+    "Pasted image 20221231214804.png",
     "Pasted image 20221231195522.png",
     "Conceptos/Redes/Enrutamiento IPv4/9. Interpretar una tabla de routing.md",
     "Conceptos/Redes/Enrutamiento IPv4/8. Rutas flotantes.md",
     "Conceptos/Redes/Tecnicas de seguridad/DMZ.md",
-    "Pasted image 20221226175234.png.md",
-    "Pasted image 20221226175234.png",
-    "Pasted image 20221226153922.png",
-    "Pasted image 20221226130614.png"
+    "Pasted image 20221226175234.png.md"
   ]
 }
